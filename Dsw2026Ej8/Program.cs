@@ -37,7 +37,7 @@ namespace Dsw2026Ej8
 
             // EJERCICIO 5
             Problema5 p5 = new Problema5();
-            Sale ventaMayorista = new WholesaleSale(1000); // 1000 - 10% desc
+            Sale ventaMayorista = new WholesaleSale(1000);
             decimal final = p5.ObtenerImporteFinal(ventaMayorista);
             
             Console.WriteLine($"Importe Final (Mayorista): {final:C}");
